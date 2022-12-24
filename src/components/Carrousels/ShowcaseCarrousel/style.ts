@@ -132,7 +132,7 @@ const ContainerShowcase = styled.div`
 						}
 
 						p {
-							font-family: "Aktiv Grotesk Ex";
+							font-family: var(--font-aktiv);
 							font-style: normal;
 							font-weight: 700;
 							font-size: 22px;
@@ -145,7 +145,7 @@ const ContainerShowcase = styled.div`
 							text-transform: uppercase;
 
 							.h5Upper {
-								font-family: "Aktiv Grotesk Ex";
+								font-family: var(--font-aktiv);
 								font-weight: 600;
 								font-size: 14px;
 								line-height: 38px;

@@ -1,3 +1,4 @@
+import DoubleItemCarrousel from "./components/Carrousels/DoubleItemCarrousel/DoubleItemCarrousel";
 import MainCarrousel from "./components/Carrousels/MainCarrousel/MainCarrousel";
 import ShowcaseCarrousel from "./components/Carrousels/ShowcaseCarrousel/ShowcaseCarrousel";
 import CategorySection from "./components/CategorySection/CategorySection";
@@ -9,9 +10,10 @@ function App() {
 		<>
 			<Header />
 			<MainCarrousel />
-			<InfoSection /> 
+			<InfoSection />
 			<ShowcaseCarrousel title="MAIS VENDIDOS" />
-			<CategorySection/>
+			<CategorySection />
+			<DoubleItemCarrousel/>
 		</>
 	);
 }

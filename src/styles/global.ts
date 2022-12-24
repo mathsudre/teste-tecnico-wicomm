@@ -1,6 +1,12 @@
 import { createGlobalStyle } from "styled-components";
 
 export default createGlobalStyle`
+    @font-face {
+        font-family: 'Aktiv Grotesk Ex';
+        src: url('/fonts/Aktiv Grotesk Ex/Aktiv Grotesk Ex.ttf') format('truetype');        
+    }
+
+
     :root{
     --bg-color:#E5E5E5;
     --white-1:#FFFFFF;
@@ -13,6 +19,7 @@ export default createGlobalStyle`
     --gray-1:#333333;
     --gray-2: #BDBDBD;
     --gray-3:#F5F6FA;
+    --gray-4:#828282;
     --gold:#AA8232;
     --bege:#D5B69A;
     --dark-blue:#00002D; 
@@ -22,6 +29,7 @@ export default createGlobalStyle`
     --font-open: 'Open Sans', sans-serif;
     --font-oswald: 'Oswald', sans-serif;
     --font-playfair: 'Playfair Display', serif;
+    --font-aktiv:'Aktiv Grotesk Ex', serif;
     }
     
     * {
@@ -33,7 +41,7 @@ export default createGlobalStyle`
     }
 
     body{
-        width: 1441px;
+        width: 1441px;        
         min-height: 100vh;       
         margin: 0 auto;
     }

@@ -26,12 +26,12 @@ export default function ShowcaseItemCarrousel({ item }: IDataShowcaseItem) {
 					{newPrice[0]},{newPrice[1]}
 				</span>
 				<p>
-					{newPrice[0]},<span className="h5Upper">{newPrice[1]}</span>
+					{newPrice[0]},<span className="spanUpper">{newPrice[1]}</span>
 				</p>
 			</>
 		) : (
 			<p>
-				{newPrice[0]},<span className="h5Upper">{newPrice[1]}</span>
+				{newPrice[0]},<span className="spanUpper">{newPrice[1]}</span>
 			</p>
 		);
 	}
