@@ -1,4 +1,4 @@
-interface IDataMainCarousel {
+export interface IDataMainCarousel {
 	itemName?: string;
 	srcImgOne?: string;
 	srcImgTwo?: string;
