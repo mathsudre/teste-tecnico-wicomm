@@ -10,9 +10,8 @@ interface IDataShowcase {
 	rating: number;
 	price: number;
 	promoPrice: number;
-	isPromo:boolean
+	isPromo: boolean;
 }
-
 
 export interface IDataItem {
 	item: IDataMainCarousel;
@@ -22,7 +21,8 @@ export interface IDataShowcaseItem {
 	item: IDataShowcase;
 }
 
-
-export interface ITitle {
+export interface IPropSlide {
 	title?: string;
+	data: IDataShowcase[];
+	bgColor?: boolean
 }

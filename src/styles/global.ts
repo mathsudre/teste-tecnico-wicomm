@@ -21,8 +21,7 @@ export default createGlobalStyle`
     --gray-3:#F5F6FA;
     --gray-4:#828282;
     --gold:#AA8232;
-    --bege:#D5B69A;
-    --dark-blue:#00002D; 
+    --bege:#D5B69A;    
     --bg-footer:#E1DCD5;
     --bg-color-2:#F8F8F8;
     --blue-hinode: #00002D; 
@@ -30,6 +29,7 @@ export default createGlobalStyle`
     --font-oswald: 'Oswald', sans-serif;
     --font-playfair: 'Playfair Display', serif;
     --font-aktiv:'Aktiv Grotesk Ex', serif;
+    --font-roboto:'Roboto', serif;
     }
     
     * {

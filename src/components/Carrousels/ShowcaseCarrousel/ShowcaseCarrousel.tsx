@@ -4,14 +4,13 @@ import FlatList from "flatlist-react";
 import { useRef } from "react";
 import { AiOutlineLeft, AiOutlineRight } from "react-icons/ai";
 import { BsEye } from "react-icons/bs";
-import { dataShowcaseCarousel } from "../../../database/database";
-import { ITitle } from "../../../interfaces/interfaces";
+import { IPropSlide } from "../../../interfaces/interfaces";
 import ShowcaseItemCarrousel from "./ShowcaseItemCarrousel";
 import { ContainerShowcase } from "./style";
 
-export default function ShowcaseCarrousel({ title }: ITitle) {
+export default function ShowcaseCarrousel({ title, data, bgColor}: IPropSlide) {
 	const autoplay = useRef(Autoplay({ delay: 3000 }));
-	const newData = dataShowcaseCarousel.slice(4).reverse();
+	const newData = data.slice(4).reverse();
 
 	function newSlide() {
 		return (
@@ -31,12 +30,12 @@ export default function ShowcaseCarrousel({ title }: ITitle) {
 	return (
 		<ContainerShowcase>
 			{title && (
-				<div className="sectionTitle">
-					<h2>{title}</h2>
-					<p>
+				<div className="sectionTitle" style={bgColor ? {'background':'var(--bg-color-2)'} : {'background':''} }>
+					<h2 style={bgColor ? {'paddingTop':'50px'} : {'background':''} }>{title}</h2>
+					{bgColor ? '' :<p>
 						<BsEye />
 						Ver todos
-					</p>
+					</p>}
 				</div>
 			)}
 
@@ -45,6 +44,7 @@ export default function ShowcaseCarrousel({ title }: ITitle) {
 				withIndicators
 				height={667}
 				className="mainCarrousel"
+				bg={bgColor ? "var(--bg-color-2)":""}
 				previousControlIcon={<AiOutlineLeft className="styleIcons" />}
 				nextControlIcon={<AiOutlineRight className="styleIcons" />}
 				plugins={[autoplay.current]}
@@ -54,7 +54,7 @@ export default function ShowcaseCarrousel({ title }: ITitle) {
 				<Carousel.Slide>
 					<ul className="showcaseSlide">
 						<FlatList
-							list={dataShowcaseCarousel.slice(0, 4)}
+							list={data.slice(0, 4)}
 							renderItem={(item, index) => (
 								<ShowcaseItemCarrousel
 									item={item}

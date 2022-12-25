@@ -6,7 +6,10 @@ interface IButton {
 	shouldHover?: boolean;
 	showcase?: boolean;
 	transparent?: boolean;
-	footer?: boolean;	
+	footer?: boolean;
+	layoutHover?: boolean;	
+	layoutHoverAlternative?:boolean
+	black?:boolean
 }
 
 const StyledButton = styled.button`
@@ -24,25 +27,44 @@ const StyledButton = styled.button`
 
 	transition: 0.3s;
 
+	
+
 	${(props) =>
 		props.transparent
-			? "background-color: transparent; border: 3px solid var(--white-1);color: var(--white-1);"
+			? "background-color: transparent; border: 2.5px solid var(--white-1);color: var(--white-1);"
 			: ""};
 
 	${(props) =>
 		props.showcase
-			? "background-color: var(--white-1); border: 3px solid var(--orange);color: var(--orange);"
+			? "background-color: var(--white-1); border: 2.5px solid var(--orange);color: var(--orange);"
+			: ""};
+
+	${(props) =>
+		props.black
+			? "background-color: var(--black); border: 2.5px solid var(--blacke); color: var(--white-1);"
 			: ""};
 
 	${(props) =>
 		props.footer
-			? "background-color: var(--blue-marine); border: 3px solid var(--blue-marine);color: var(--white-1);"
+			? "background-color: var(--blue-marine); border: 2.5px solid var(--blue-marine);color: var(--white-1);"
 			: ""};
 
+	/* HOVER */
 	${(props) =>
 		props.shouldHover
-			? "&:hover { background-color: var(--orange); border: 3px solid var(--orange); color: var(--white-1);  }"
+			? "&:hover { background-color: var(--orange); border: 2.5px solid var(--orange); color: var(--white-1);  }"
 			: ""}
+
+	${(props) =>
+		props.layoutHover
+			? "&:hover { background-color: var(--white-1); border: 2.5px solid var(--white-1); color: var(--gray-4);  }"
+		: ""}		
+
+	${(props) =>
+		props.layoutHoverAlternative
+			? "&:hover { background-color: var(--white-1); border: 2.5px solid var(--gray-4); color: var(--gray-4);  }"
+		: ""}		
+	
 `;
 
 export default StyledButton;

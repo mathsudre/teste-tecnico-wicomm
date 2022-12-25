@@ -1,14 +1,4 @@
-const dataMainCarousel = [
-	{
-		itemName: "Base Líquida DAZZLE",
-		srcImgOne: "/img/face-cream.svg",
-		srcImgTwo: "/img/ginger-woman.svg",
-	},
-	{
-		itemName: "Base Líquida DAZZLE",
-		srcImgOne: "/img/face-cream.svg",
-		srcImgTwo: "/img/ginger-woman.svg",
-	},
+export const dataMainCarousel = [
 	{
 		itemName: "Base Líquida DAZZLE",
 		srcImgOne: "/img/face-cream.svg",
@@ -26,7 +16,7 @@ const dataMainCarousel = [
 	},
 ];
 
-const dataShowcaseCarousel = [
+export const dataShowcaseCarousel = [
 	{
 		nameItem: "Esponja 3D Dazzle",
 		srcImg: "/img/sponge.svg",
@@ -93,4 +83,238 @@ const dataShowcaseCarousel = [
 	},
 ];
 
-export { dataMainCarousel, dataShowcaseCarousel };
+export const dataShowcaseCarouselCreme = [
+	{
+		nameItem: "Corps Lígnea Body Contour Gel Modelador 500g",
+		srcImg: "/img/gel-modelador.svg",
+		rating: 4,
+		price: 60,
+		isPromo: false,
+		promoPrice: 0,
+	},
+	{
+		nameItem: "Shake de Vanilla H+ HND - 550g",
+		srcImg: "/img/shake-vanila.svg",
+		rating: 4,
+		price: 99.9,
+		isPromo: true,
+		promoPrice: 79.9,
+	},
+	{
+		nameItem: "Shake de Morango H+ HND - 550g",
+		srcImg: "/img/shake-morango.svg",
+		rating: 4,
+		price: 99.9,
+		isPromo: true,
+		promoPrice: 79.9,
+	},
+	{
+		nameItem: "Luva de Silicone Creme para as Mãos Hands 100g",
+		srcImg: "/img/creme-mao.svg",
+		rating: 4,
+		price: 25,
+		isPromo: false,
+		promoPrice: 0,
+	},
+	{
+		nameItem: "Corps Lígnea Body Contour Gel Modelador 500g",
+		srcImg: "/img/gel-modelador.svg",
+		rating: 4,
+		price: 60,
+		isPromo: false,
+		promoPrice: 0,
+	},
+	{
+		nameItem: "Shake de Vanilla H+ HND - 550g",
+		srcImg: "/img/shake-vanila.svg",
+		rating: 4,
+		price: 99.9,
+		isPromo: true,
+		promoPrice: 79.9,
+	},
+	{
+		nameItem: "Shake de Morango H+ HND - 550g",
+		srcImg: "/img/shake-morango.svg",
+		rating: 4,
+		price: 99.9,
+		isPromo: true,
+		promoPrice: 79.9,
+	},
+	{
+		nameItem: "Luva de Silicone Creme para as Mãos Hands 100g",
+		srcImg: "/img/creme-mao.svg",
+		rating: 4,
+		price: 25,
+		isPromo: false,
+		promoPrice: 0,
+	},
+];
+
+export const dataShowcaseCarouselHealth = [
+	{
+		nameItem: "Café Verde 120 cápsulas",
+		srcImg: "/img/cafe-verde.svg",
+		rating: 4,
+		price: 69.9,
+		isPromo: false,
+		promoPrice: 0,
+	},
+	{
+		nameItem: "Ácido Hialurônico com Colágeno HND 30 Sachês de 4g",
+		srcImg: "/img/colageno.svg",
+		rating: 4,
+		price: 175,
+		isPromo: false,
+		promoPrice: 0,
+	},
+	{
+		nameItem: "Slim Max HND 120 Cápsulas",
+		srcImg: "/img/slim-max.svg",
+		rating: 4,
+		price: 140,
+		isPromo: false,
+		promoPrice: 0,
+	},
+	{
+		nameItem: "Chá H+ Frutas Vermelhas 150g",
+		srcImg: "/img/cha-frutas-red.svg",
+		rating: 4,
+		price: 85,
+		isPromo: false,
+		promoPrice: 0,
+	},
+];
+
+export const dataShowcaseCarouselSkin = [
+	{
+		nameItem: "Corps Lígnea Wonderful Gold Óleo para as Pernas - 150ml",
+		srcImg: "/img/oleo-corpo.svg",
+		rating: 4,
+		price: 45.0,
+		isPromo: false,
+		promoPrice: 0,
+	},
+	{
+		nameItem: "Corps Lígnea Body Contour Esfoliante Corporal - 200g",
+		srcImg: "/img/esfoliante-corporal.svg",
+		rating: 4,
+		price: 49,
+		isPromo: false,
+		promoPrice: 0,
+	},
+	{
+		nameItem: "Gel para Massagem Feelin Hot Morango 60ml",
+		srcImg: "/img/gel-massagem.svg",
+		rating: 4,
+		price: 27,
+		isPromo: false,
+		promoPrice: 0,
+	},
+	{
+		nameItem: "Óleo para as Pernas Wonderful 140ml",
+		srcImg: "/img/oleo-perna.svg",
+		rating: 4,
+		price: 39,
+		isPromo: false,
+		promoPrice: 0,
+	},
+	{
+		nameItem: "Corps Lígnea Wonderful Gold Óleo para as Pernas - 150ml",
+		srcImg: "/img/oleo-corpo.svg",
+		rating: 4,
+		price: 45.0,
+		isPromo: false,
+		promoPrice: 0,
+	},
+	{
+		nameItem: "Corps Lígnea Body Contour Esfoliante Corporal - 200g",
+		srcImg: "/img/esfoliante-corporal.svg",
+		rating: 4,
+		price: 49,
+		isPromo: false,
+		promoPrice: 0,
+	},
+	{
+		nameItem: "Gel para Massagem Feelin Hot Morango 60ml",
+		srcImg: "/img/gel-massagem.svg",
+		rating: 4,
+		price: 27,
+		isPromo: false,
+		promoPrice: 0,
+	},
+	{
+		nameItem: "Óleo para as Pernas Wonderful 140ml",
+		srcImg: "/img/oleo-perna.svg",
+		rating: 4,
+		price: 39,
+		isPromo: false,
+		promoPrice: 0,
+	},
+];
+
+export const dataShowcaseCarouselNewProducts = [
+	{
+		nameItem: "Deo Colônia Venyx L’Or 100ml",
+		srcImg: "/img/deo-colonia.svg",
+		rating: 4,
+		price: 150,
+		isPromo: false,
+		promoPrice: 0,
+	},
+	{
+		nameItem: "Desodorante Roll On Dynamic",
+		srcImg: "/img/rollon-dynamic.svg",
+		rating: 4,
+		price: 17.9,
+		isPromo: false,
+		promoPrice: 0,
+	},
+	{
+		nameItem: "Erva Doce Sabonete Cremoso Facial Hinode 250ml",
+		srcImg: "/img/sabonete=facial.svg",
+		rating: 4,
+		price: 33.4,
+		isPromo: false,
+		promoPrice: 0,
+	},
+	{
+		nameItem: "HND Shake Triple Chocolate 450g",
+		srcImg: "/img/shake-triple.svg",
+		rating: 4,
+		price: 109.9,
+		isPromo: false,
+		promoPrice: 0,
+	},
+	{
+		nameItem: "Deo Colônia Venyx L’Or 100ml",
+		srcImg: "/img/deo-colonia.svg",
+		rating: 4,
+		price: 150,
+		isPromo: false,
+		promoPrice: 0,
+	},
+	{
+		nameItem: "Desodorante Roll On Dynamic",
+		srcImg: "/img/rollon-dynamic.svg",
+		rating: 4,
+		price: 17.9,
+		isPromo: false,
+		promoPrice: 0,
+	},
+	{
+		nameItem: "Erva Doce Sabonete Cremoso Facial Hinode 250ml",
+		srcImg: "/img/sabonete=facial.svg",
+		rating: 4,
+		price: 33.4,
+		isPromo: false,
+		promoPrice: 0,
+	},
+	{
+		nameItem: "HND Shake Triple Chocolate 450g",
+		srcImg: "/img/shake-triple.svg",
+		rating: 4,
+		price: 109.9,
+		isPromo: false,
+		promoPrice: 0,
+	},
+];

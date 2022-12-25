@@ -51,7 +51,7 @@ export default function ShowcaseItemCarrousel({ item }: IDataShowcaseItem) {
 						className="iconStyle"
 					/>
 				)}
-				<Image src={item.srcImg} width={198} height={198} />
+				<Image fit="cover" src={item.srcImg} alt={item.nameItem}/>
 			</div>
 
 			<div className="infoProductSection">

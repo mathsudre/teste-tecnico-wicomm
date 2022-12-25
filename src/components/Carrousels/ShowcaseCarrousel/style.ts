@@ -3,7 +3,7 @@ import styled from "styled-components";
 const ContainerShowcase = styled.div`
 	display: flex;
 	flex-direction: column;
-	margin-top: 96px;
+	margin-top: 76px;
 	width: 100%;
 
 	.sectionTitle {
@@ -14,20 +14,30 @@ const ContainerShowcase = styled.div`
 		padding: 0px 150px 0px 150px;
 
 		h2 {
-			margin-left: 450px;
+			position: relative;
+			width:100%;
+			text-align: center;
 
 			font-family: var(--font-oswald);
 			font-style: normal;
 			font-weight: 300;
 			font-size: 46px;
 			line-height: 70px;
+			text-transform: uppercase;
 		}
 
 		p {
+			width: 90px;			
+
+			position: relative;
+
+			right: 0%;
+
 			display: flex;
 			align-items: center;
 			align-self: flex-end;
 			justify-self: end;
+
 			gap: 8px;
 
 			font-family: var(--font-open);
@@ -35,6 +45,8 @@ const ContainerShowcase = styled.div`
 			font-weight: 600;
 			font-size: 12px;
 			line-height: 22px;
+
+			z-index: 1;
 		}
 	}
 
@@ -93,10 +105,13 @@ const ContainerShowcase = styled.div`
 
 						position: relative;
 						top: -130px;
-						right: -75%;
+						right: -85%;
 
 						width: 30px;
 						height: 30px;
+
+						animation: heartBeat 1.5s;
+						transition: 1s;
 					}
 				}
 
