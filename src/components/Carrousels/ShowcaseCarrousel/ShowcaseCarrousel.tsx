@@ -8,7 +8,11 @@ import { IPropSlide } from "../../../interfaces/interfaces";
 import ShowcaseItemCarrousel from "./ShowcaseItemCarrousel";
 import { ContainerShowcase } from "./style";
 
-export default function ShowcaseCarrousel({ title, data, bgColor}: IPropSlide) {
+export default function ShowcaseCarrousel({
+	title,
+	data,
+	bgColor,
+}: IPropSlide) {
 	const autoplay = useRef(Autoplay({ delay: 3000 }));
 	const newData = data.slice(4).reverse();
 
@@ -28,14 +32,33 @@ export default function ShowcaseCarrousel({ title, data, bgColor}: IPropSlide) {
 	}
 
 	return (
-		<ContainerShowcase>
+		<ContainerShowcase >
 			{title && (
-				<div className="sectionTitle" style={bgColor ? {'background':'var(--bg-color-2)'} : {'background':''} }>
-					<h2 style={bgColor ? {'paddingTop':'50px'} : {'background':''} }>{title}</h2>
-					{bgColor ? '' :<p>
-						<BsEye />
-						Ver todos
-					</p>}
+				<div
+					className="sectionTitle"
+					style={
+						bgColor
+							? { background: "var(--bg-color-2)" }
+							: { background: "" }
+					}
+				>
+					<h2
+						style={
+							bgColor
+								? { paddingTop: "50px" }
+								: { background: "" }
+						}						
+					>
+						{title}
+					</h2>
+					{bgColor ? (
+						""
+					) : (
+						<p>
+							<BsEye />
+							Ver todos
+						</p>
+					)}
 				</div>
 			)}
 
@@ -44,14 +67,14 @@ export default function ShowcaseCarrousel({ title, data, bgColor}: IPropSlide) {
 				withIndicators
 				height={667}
 				className="mainCarrousel"
-				bg={bgColor ? "var(--bg-color-2)":""}
+				bg={bgColor ? "var(--bg-color-2)" : ""}
 				previousControlIcon={<AiOutlineLeft className="styleIcons" />}
 				nextControlIcon={<AiOutlineRight className="styleIcons" />}
 				plugins={[autoplay.current]}
 				onMouseEnter={autoplay.current.stop}
-				onMouseLeave={autoplay.current.reset}
+				onMouseLeave={autoplay.current.reset} 				
 			>
-				<Carousel.Slide>
+				<Carousel.Slide>	
 					<ul className="showcaseSlide">
 						<FlatList
 							list={data.slice(0, 4)}

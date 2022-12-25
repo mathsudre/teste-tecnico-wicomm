@@ -43,7 +43,8 @@ const StyledHeader = styled.header`
 		font-weight: 400;
 		font-size: 10px;
 		line-height: 22px;
-
+		cursor: pointer;
+		
 		.colaborate {
 			display: flex;
 			align-items: center;

@@ -69,13 +69,16 @@ const StyledUserSectionHeader = styled.section`
 			font-style: normal;
 			font-weight: 600;
 			font-size: 12px;
-			line-height: 22px;			
+			line-height: 22px;
+			
+			cursor: pointer;
 		}
 
 		.bag {
 			width: 50px;
 			height: 26px;
 			padding-top: 8px;
+			cursor: pointer;
 
 			.labelBag{				
 				div{

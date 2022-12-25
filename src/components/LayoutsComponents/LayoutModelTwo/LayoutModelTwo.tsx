@@ -4,7 +4,7 @@ import { ContainerLayoutTwo } from './style'
 
 export default function LayoutModelTwo() {
   return (
-    <ContainerLayoutTwo>
+    <ContainerLayoutTwo data-aos="zoom-in">
         <img src="/img/perfumes.jpg" alt="mulher em uma banheira" />
         <section className="layoutDescription">
           <h2>Linha <br />EMPIRE</h2>
