@@ -1,10 +1,23 @@
 import styled from "styled-components";
 
+interface IMarginTop {
+	title?: boolean | string;
+	bgColor?:boolean
+}
+
 const ContainerShowcase = styled.div`
 	display: flex;
 	flex-direction: column;
-	margin-top: 76px;
+	margin-top: ${(prop: IMarginTop) => (prop.title ? "76px" : "")};
 	width: 100%;
+
+	.bgColor{
+		background-color: var(--bg-color-2);		
+	}
+
+	.paddingTop{
+		padding-top: 50px;
+	}
 
 	.sectionTitle {
 		display: flex;
@@ -15,8 +28,8 @@ const ContainerShowcase = styled.div`
 
 		h2 {
 			position: relative;
-			width:100%;
-			text-align: center;
+			width: 100%;
+			text-align: center;			
 
 			font-family: var(--font-oswald);
 			font-style: normal;
@@ -27,7 +40,7 @@ const ContainerShowcase = styled.div`
 		}
 
 		p {
-			width: 90px;			
+			width: 90px;
 
 			position: relative;
 
@@ -82,7 +95,7 @@ const ContainerShowcase = styled.div`
 			display: flex;
 			gap: 25px;
 
-			hr{
+			hr {
 				display: none;
 			}
 
@@ -121,6 +134,7 @@ const ContainerShowcase = styled.div`
 					display: flex;
 					justify-content: space-between;
 					flex-direction: column;
+					font-style: normal;
 
 					.descriptionSection {
 						display: flex;
@@ -130,7 +144,6 @@ const ContainerShowcase = styled.div`
 
 						h3 {
 							font-family: var(--font-oswald);
-							font-style: normal;
 							font-weight: 400;
 							font-size: 17px;
 							line-height: 23px;
@@ -138,7 +151,7 @@ const ContainerShowcase = styled.div`
 
 						span {
 							font-family: var(--font-open);
-							font-style: normal;
+
 							font-weight: 400;
 							font-size: 14px;
 							line-height: 23px;
@@ -148,11 +161,9 @@ const ContainerShowcase = styled.div`
 
 						p {
 							font-family: var(--font-aktiv);
-							font-style: normal;
 							font-weight: 700;
 							font-size: 22px;
 							line-height: 18px;
-							/* or 82% */
 
 							display: flex;
 							align-items: center;

@@ -61,7 +61,7 @@ const ContainerCategory = styled.section`
 			a:-webkit-any-link {
 				transition-delay: 2s;
 				display: block;
-				animation: fadeIn 1.2s;
+				animation: fadeIn 1.5s;
 			}
 		}
 
@@ -111,7 +111,7 @@ const ContainerCategory = styled.section`
 
 			display: none;
 
-			transform: translateY(-1030%);
+			transform: translateY(-1020%);
 
 			text-decoration-line: underline;
 		}

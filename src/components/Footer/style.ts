@@ -82,6 +82,7 @@ const ContainerFooter = styled.footer`
 		.socialIcons {
 			width: 48px;
 			height: 48px;
+			cursor: pointer;
 		}
         
 

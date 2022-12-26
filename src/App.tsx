@@ -13,7 +13,9 @@ import LayoutModelTwo from "./components/LayoutsComponents/LayoutModelTwo/Layout
 import {
 	dataShowcaseCarousel,
 	dataShowcaseCarouselCreme,
+	dataShowcaseCarouselFragancies,
 	dataShowcaseCarouselHealth,
+	dataShowcaseCarouselNewFragancies,
 	dataShowcaseCarouselNewProducts,
 	dataShowcaseCarouselSkin,
 } from "./database/database";
@@ -50,9 +52,9 @@ function App() {
 			<LayoutModelTwo />
 			<ShowcaseCarrousel
 				title="fragrâncias"
-				data={dataShowcaseCarousel}
+				data={dataShowcaseCarouselFragancies}
 			/>
-			<ShowcaseCarrousel data={dataShowcaseCarousel} />
+			<ShowcaseCarrousel data={dataShowcaseCarouselNewFragancies} />
 			<ShowcaseCarrousel
 				title="acabaram de chegar"
 				data={dataShowcaseCarouselNewProducts}

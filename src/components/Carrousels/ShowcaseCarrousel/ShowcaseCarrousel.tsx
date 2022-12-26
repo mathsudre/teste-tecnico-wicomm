@@ -32,28 +32,12 @@ export default function ShowcaseCarrousel({
 	}
 
 	return (
-		<ContainerShowcase >
+		<ContainerShowcase title={title}>
 			{title && (
-				<div
-					className="sectionTitle"
-					style={
-						bgColor
-							? { background: "var(--bg-color-2)" }
-							: { background: "" }
-					}
-				>
-					<h2
-						style={
-							bgColor
-								? { paddingTop: "50px" }
-								: { background: "" }
-						}						
-					>
-						{title}
-					</h2>
-					{bgColor ? (
-						""
-					) : (
+				<div className={`sectionTitle ${bgColor && "bgColor"}`}>
+					<h2 className={`${bgColor && "paddingTop"}`}>{title}</h2>
+
+					{!bgColor && (
 						<p>
 							<BsEye />
 							Ver todos
@@ -72,9 +56,9 @@ export default function ShowcaseCarrousel({
 				nextControlIcon={<AiOutlineRight className="styleIcons" />}
 				plugins={[autoplay.current]}
 				onMouseEnter={autoplay.current.stop}
-				onMouseLeave={autoplay.current.reset} 				
+				onMouseLeave={autoplay.current.reset}
 			>
-				<Carousel.Slide>	
+				<Carousel.Slide>
 					<ul className="showcaseSlide">
 						<FlatList
 							list={data.slice(0, 4)}

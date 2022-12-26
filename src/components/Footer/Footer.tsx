@@ -83,20 +83,45 @@ export default function Footer() {
 				</ul>
 
 				<ul>
-					<StyledButton w={"221px"} h={"48px"} footer>
-						central de atendimento
-					</StyledButton>
+					<a
+						href="https://www.hinode.com.br/central-de-atendimento"
+						target="_blank"
+						rel="noopener noreferrer"
+					>
+						<StyledButton w={"221px"} h={"48px"} footer>
+							central de atendimento
+						</StyledButton>
+					</a>
+
 					<li>De segunda a sexta das 9h às 21h</li>
-					<li>Capitas e regiões metropolitanas 4020-2424</li>
+					<li>Capitais e regiões metropolitanas 4020-2424</li>
 					<li>Demais localidades: 0800-144-6633</li>
 					<li className="iconContainer">
-						<GrInstagram className="socialIcons" />
-						<AiOutlineYoutube className="socialIcons" />
-						<GrFacebookOption className="socialIcons" />
+						<a
+							href="https://www.instagram.com/hinodeoficial/?hl=en"
+							target="_blank"
+							rel="noopener noreferrer"
+						>
+							<GrInstagram className="socialIcons" />
+						</a>
+						<a
+							href="https://www.youtube.com/channel/UCSqcPzOr5qwwT4EkZvNSC6w"
+							target="_blank"
+							rel="noopener noreferrer"
+						>
+							<AiOutlineYoutube className="socialIcons" />
+						</a>
+						<a
+							href="https://www.facebook.com/Group.Hinode/"
+							target="_blank"
+							rel="noopener noreferrer"
+						>
+							<GrFacebookOption className="socialIcons" />
+						</a>
 					</li>
 				</ul>
-            </section>
-                <img src="/img/footer-cnpj.svg" alt="cnpj-info" />
+			</section>
+			<img src="/img/footer-cnpj.svg" alt="cnpj-info" />
 		</ContainerFooter>
 	);
 }
