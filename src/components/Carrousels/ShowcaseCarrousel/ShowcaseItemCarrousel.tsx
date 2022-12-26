@@ -26,7 +26,8 @@ export default function ShowcaseItemCarrousel({ item }: IDataShowcaseItem) {
 					{newPrice[0]},{newPrice[1]}
 				</span>
 				<p>
-					{newPrice[0]},<span className="spanUpper">{newPrice[1]}</span>
+					{newPrice[0]},
+					<span className="spanUpper">{newPrice[1]}</span>
 				</p>
 			</>
 		) : (
@@ -51,7 +52,7 @@ export default function ShowcaseItemCarrousel({ item }: IDataShowcaseItem) {
 						className="iconStyle"
 					/>
 				)}
-				<Image fit="cover" src={item.srcImg} alt={item.nameItem}/>
+				<Image fit="cover" src={item.srcImg} alt={item.nameItem} />
 			</div>
 
 			<div className="infoProductSection">

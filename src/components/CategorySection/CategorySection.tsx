@@ -12,7 +12,7 @@ export default function CategorySection() {
 					<a href="#">VER MAIS</a>
 				</div>
 
-				<div className="categoryItem"  data-aos="fade-down">
+				<div className="categoryItem" data-aos="fade-down">
 					<img src="/img/wedding-ceremony.jpg" alt="fragrâncias" />
 					<h3>fragrâncias</h3>
 					<a href="#">VER MAIS</a>

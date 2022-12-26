@@ -8,18 +8,16 @@ const ContainerLayoutOne = styled.section`
 	margin-top: 96px;
 
 	display: flex;
-    align-items: center;
-
+	align-items: center;
 
 	.layoutDescription {
-
 		width: 723px;
 		height: 384px;
-        margin-left: 142px;
+		margin-left: 142px;
 
 		position: absolute;
 
-        color: var(--white-1);
+		color: var(--white-1);
 
 		h2 {
 			font-family: var(--font-playfair);
@@ -37,13 +35,13 @@ const ContainerLayoutOne = styled.section`
 			font-weight: 350;
 			font-size: 24px;
 			line-height: 137.69%;
-            letter-spacing: .4px;
-            margin: 8px 0px 32px 0px;
+			letter-spacing: 0.4px;
+			margin: 8px 0px 32px 0px;
 		}
 
-        button{
-            font-size: 11.8px;
-        }
+		button {
+			font-size: 11.8px;
+		}
 	}
 `;
 

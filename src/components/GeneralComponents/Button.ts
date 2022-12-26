@@ -7,9 +7,9 @@ interface IButton {
 	showcase?: boolean;
 	transparent?: boolean;
 	footer?: boolean;
-	layoutHover?: boolean;	
-	layoutHoverAlternative?:boolean
-	black?:boolean
+	layoutHover?: boolean;
+	layoutHoverAlternative?: boolean;
+	black?: boolean;
 }
 
 const StyledButton = styled.button`
@@ -26,8 +26,6 @@ const StyledButton = styled.button`
 	text-transform: uppercase;
 
 	transition: 0.3s;
-
-	
 
 	${(props) =>
 		props.transparent
@@ -58,13 +56,12 @@ const StyledButton = styled.button`
 	${(props) =>
 		props.layoutHover
 			? "&:hover { background-color: var(--white-1); border: 2.5px solid var(--white-1); color: var(--gray-4);  }"
-		: ""}		
+			: ""}		
 
 	${(props) =>
 		props.layoutHoverAlternative
 			? "&:hover { background-color: var(--white-1); border: 2.5px solid var(--gray-4); color: var(--gray-4);  }"
-		: ""}		
-	
+			: ""}
 `;
 
 export default StyledButton;

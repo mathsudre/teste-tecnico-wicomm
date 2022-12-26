@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-const StyledUserSectionHeader = styled.section`	
+const StyledUserSectionHeader = styled.section`
 	margin: 0 auto;
 	height: 90px;
 	width: 80%;
@@ -24,10 +24,10 @@ const StyledUserSectionHeader = styled.section`
 
 		.loginRegister {
 			width: 163px;
-			height: 37px;			
+			height: 37px;
 
 			display: flex;
-			align-items: flex-end;			
+			align-items: flex-end;
 
 			div {
 				display: flex;
@@ -63,14 +63,14 @@ const StyledUserSectionHeader = styled.section`
 
 			gap: 11px;
 
-			display: flex;			
+			display: flex;
 
 			font-family: var(--font-open);
 			font-style: normal;
 			font-weight: 600;
 			font-size: 12px;
 			line-height: 22px;
-			
+
 			cursor: pointer;
 		}
 
@@ -80,8 +80,8 @@ const StyledUserSectionHeader = styled.section`
 			padding-top: 8px;
 			cursor: pointer;
 
-			.labelBag{				
-				div{
+			.labelBag {
+				div {
 					padding: 0;
 					margin: 0;
 
@@ -89,17 +89,17 @@ const StyledUserSectionHeader = styled.section`
 
 					width: 14px;
 					height: 14px;
-					border-radius:50%;
-					
-					span{
+					border-radius: 50%;
+
+					span {
 						display: flex;
 						align-items: center;
 						justify-content: center;
 						width: 100%;
 						height: 100%;
-					} 
+					}
 				}
-			}			
+			}
 		}
 	}
 

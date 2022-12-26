@@ -1,12 +1,12 @@
+import { Burger } from "@mantine/core";
 import { useState } from "react";
 import { ContainerHeader } from "../style";
 import { StyledShoppingHeader } from "./style";
-import { Burger } from '@mantine/core';
 
 export default function ShoppingHeader() {
 	const [opened, setOpened] = useState(false);
-    const title = opened ? "Close navigation" : "Open navigation";
-    
+	const title = opened ? "Close navigation" : "Open navigation";
+
 	return (
 		<ContainerHeader bgColor="var(--gold)">
 			<StyledShoppingHeader>
@@ -14,8 +14,8 @@ export default function ShoppingHeader() {
 					<Burger
 						opened={opened}
 						onClick={() => setOpened((o) => !o)}
-                        title={title}
-                        color='var(--white-1)'
+						title={title}
+						color="var(--white-1)"
 					/>
 					Todas as categorias
 				</div>

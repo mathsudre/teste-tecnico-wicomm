@@ -24,5 +24,5 @@ export interface IDataShowcaseItem {
 export interface IPropSlide {
 	title?: string;
 	data: IDataShowcase[];
-	bgColor?: boolean
+	bgColor?: boolean;
 }

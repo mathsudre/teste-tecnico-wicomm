@@ -21,7 +21,12 @@ export default function MainItemCarrousel({ item }: IDataItem) {
 
 					<div className="buySection">
 						<h2>{item.itemName}</h2>
-						<StyledButton w="171px" h="50px" layoutHover transparent>
+						<StyledButton
+							w="171px"
+							h="50px"
+							layoutHover
+							transparent
+						>
 							COMPRAR
 						</StyledButton>
 					</div>

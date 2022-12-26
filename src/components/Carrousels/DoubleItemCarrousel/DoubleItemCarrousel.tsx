@@ -15,9 +15,14 @@ export default function DoubleItemCarrousel() {
 			currency: "BRL",
 		});
 
-        const formatPrice = newFormato.format(price).split(',')
-        
-        return <span>{formatPrice[0]},<span className="spanUpperPro">{formatPrice[1]}</span> </span>
+		const formatPrice = newFormato.format(price).split(",");
+
+		return (
+			<span>
+				{formatPrice[0]},
+				<span className="spanUpperPro">{formatPrice[1]}</span>{" "}
+			</span>
+		);
 	}
 
 	return (
@@ -25,7 +30,7 @@ export default function DoubleItemCarrousel() {
 			<Carousel
 				loop
 				withIndicators
-				height={833}				
+				height={833}
 				previousControlIcon={<AiOutlineLeft className="styleIcons" />}
 				nextControlIcon={<AiOutlineRight className="styleIcons" />}
 				plugins={[autoplay.current]}
@@ -91,9 +96,9 @@ export default function DoubleItemCarrousel() {
 							</div>
 						</div>
 					</div>
-                </Carousel.Slide>
+				</Carousel.Slide>
 
-                <Carousel.Slide>
+				<Carousel.Slide>
 					<div className="slideItem">
 						<img src="/img/vent-perfum.jpg" alt="perfume" />
 						<div className="btnSection">
@@ -152,9 +157,9 @@ export default function DoubleItemCarrousel() {
 							</div>
 						</div>
 					</div>
-                </Carousel.Slide>
+				</Carousel.Slide>
 
-                <Carousel.Slide>
+				<Carousel.Slide>
 					<div className="slideItem">
 						<img src="/img/vent-perfum.jpg" alt="perfume" />
 						<div className="btnSection">

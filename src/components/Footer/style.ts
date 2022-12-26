@@ -4,13 +4,13 @@ const ContainerFooter = styled.footer`
 	width: 100%;
 	height: 832px;
 
-    margin-top: 44px;
-    margin-bottom: 206px;
+	margin-top: 44px;
+	margin-bottom: 206px;
 
 	background-color: beige;
-    img{
-        width: 100%;
-    }
+	img {
+		width: 100%;
+	}
 	.receiveNews {
 		padding: 0px 150px 0px 150px;
 		color: var(--white-1);
@@ -69,14 +69,14 @@ const ContainerFooter = styled.footer`
 		background-color: var(--bg-footer);
 
 		display: flex;
-        justify-content: space-evenly;
+		justify-content: space-evenly;
 
 		.iconContainer {
 			display: flex;
-            justify-content: flex-end;
+			justify-content: flex-end;
 			align-items: center;
-            padding-top: 30px;
-			gap: 20px;			
+			padding-top: 30px;
+			gap: 20px;
 		}
 
 		.socialIcons {
@@ -84,12 +84,11 @@ const ContainerFooter = styled.footer`
 			height: 48px;
 			cursor: pointer;
 		}
-        
 
 		ul {
 			button {
 				font-size: 11.8px;
-                margin-bottom: 16px;
+				margin-bottom: 16px;
 			}
 
 			width: 267px;

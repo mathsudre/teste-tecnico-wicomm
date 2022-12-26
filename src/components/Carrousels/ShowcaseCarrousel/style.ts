@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 interface IMarginTop {
 	title?: boolean | string;
-	bgColor?:boolean
+	bgColor?: boolean;
 }
 
 const ContainerShowcase = styled.div`
@@ -11,11 +11,11 @@ const ContainerShowcase = styled.div`
 	margin-top: ${(prop: IMarginTop) => (prop.title ? "76px" : "")};
 	width: 100%;
 
-	.bgColor{
-		background-color: var(--bg-color-2);		
+	.bgColor {
+		background-color: var(--bg-color-2);
 	}
 
-	.paddingTop{
+	.paddingTop {
 		padding-top: 50px;
 	}
 
@@ -29,7 +29,7 @@ const ContainerShowcase = styled.div`
 		h2 {
 			position: relative;
 			width: 100%;
-			text-align: center;			
+			text-align: center;
 
 			font-family: var(--font-oswald);
 			font-style: normal;
