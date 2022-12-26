@@ -10,6 +10,7 @@ interface IDataShowcase {
 	rating: number;
 	price: number;
 	promoPrice: number;
+	promoDiscount:string
 	isPromo: boolean;
 }
 

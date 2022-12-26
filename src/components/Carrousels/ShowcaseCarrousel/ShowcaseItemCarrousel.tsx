@@ -1,4 +1,4 @@
-import { Image, Rating } from "@mantine/core";
+import { Badge, Image, Rating } from "@mantine/core";
 import { useState } from "react";
 import { AiFillHeart, AiOutlineHeart } from "react-icons/ai";
 
@@ -53,6 +53,7 @@ export default function ShowcaseItemCarrousel({ item }: IDataShowcaseItem) {
 					/>
 				)}
 				<Image fit="cover" src={item.srcImg} alt={item.nameItem} />
+				{item.isPromo && <Badge color="dark" size="lg" radius="xs">{item.promoDiscount}</Badge>}
 			</div>
 
 			<div className="infoProductSection">

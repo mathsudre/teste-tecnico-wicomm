@@ -17,6 +17,8 @@ const StyledHeader = styled.header`
 	align-items: center;
 	flex-direction: column;
 
+	position: sticky;
+
 	.colaborate-section {
 		margin: 0 auto;
 		width: 80%;

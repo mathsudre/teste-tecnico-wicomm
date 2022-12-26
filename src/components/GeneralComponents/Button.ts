@@ -62,6 +62,11 @@ const StyledButton = styled.button`
 		props.layoutHoverAlternative
 			? "&:hover { background-color: var(--white-1); border: 2.5px solid var(--gray-4); color: var(--gray-4);  }"
 			: ""}
+			
+	${(props) =>
+		props.footer
+			? "&:hover { background-color: var(--white-1); border: 2.5px solid var(--blue-marine); color: var(--blue-marine);  }"
+			: ""}
 `;
 
 export default StyledButton;

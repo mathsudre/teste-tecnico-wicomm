@@ -11,6 +11,29 @@ const ContainerShowcase = styled.div`
 	margin-top: ${(prop: IMarginTop) => (prop.title ? "76px" : "")};
 	width: 100%;
 
+	.mantine-Badge-root {
+		width: 50px;
+		height: 28px;
+		padding: 0;
+
+		background-color: var(--gold);
+
+		position: relative;
+		top: -120px;
+		right: 235px;
+
+		color: var(--white-1);
+
+		span {
+			width: 100%;
+			text-align: center;
+			font-weight: 600;
+			font-family: var(--font-open);
+
+			text-overflow: none;
+		}
+	}
+
 	.bgColor {
 		background-color: var(--bg-color-2);
 	}
@@ -79,7 +102,19 @@ const ContainerShowcase = styled.div`
 		}
 
 		.mantine-Carousel-indicators button {
-			background-color: var(--gold);
+			background-color: transparent;
+			width: 10.5px;
+			height: 10.5px;
+			border: 2px solid var(--gold);
+			transition: 1s;
+
+			&[data-active] {
+				width: 22.5px;
+				height: 12px;
+				border: 1px solid var(--gold);
+				border-radius: 10px;
+				background-color: var(--gold);
+			}
 		}
 
 		.mantine-Carousel-slide {

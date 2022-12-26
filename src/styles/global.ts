@@ -8,28 +8,32 @@ export default createGlobalStyle`
 
 
     :root{
+         /*COLORS*/
+    --bege:#D5B69A;    
     --bg-color:#E5E5E5;
-    --white-1:#FFFFFF;
-    --white-2:#F7F7F7;
-    --orange:#F2994A;
-    --blue-marine:#009BAA;
+    --bg-color-2:#F8F8F8;
+    --bg-footer:#E1DCD5;
     --black:#000000;
-    --rose:#FD6868;
-    --red-1:#B90032;
+    --blue-hinode: #00002D; 
+    --blue-marine:#009BAA;
+    --gold:#AA8232;
     --gray-1:#333333;
     --gray-2: #BDBDBD;
     --gray-3:#F5F6FA;
     --gray-4:#828282;
-    --gold:#AA8232;
-    --bege:#D5B69A;    
-    --bg-footer:#E1DCD5;
-    --bg-color-2:#F8F8F8;
-    --blue-hinode: #00002D; 
+    --orange:#F2994A;
+    --red-1:#B90032;
+    --rose:#FD6868;
+    --white-1:#FFFFFF;
+    --white-2:#F7F7F7;
+    
+        /*FONTS*/
+    --font-aktiv:'Aktiv Grotesk Ex', serif;
     --font-open: 'Open Sans', sans-serif;
     --font-oswald: 'Oswald', sans-serif;
     --font-playfair: 'Playfair Display', serif;
-    --font-aktiv:'Aktiv Grotesk Ex', serif;
     --font-roboto:'Roboto', serif;
+
     }
     
     * {

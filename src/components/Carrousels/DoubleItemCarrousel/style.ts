@@ -18,7 +18,19 @@ const ContainerDoubleCarrousel = styled.div`
 		margin-bottom: 40px;
 	}
 	.mantine-Carousel-indicators button {
-		background-color: var(--gold);
+		background-color: transparent;
+		width: 10.5px;
+		height: 10.5px;
+		border: 2px solid var(--gold);
+		transition: 1s;
+
+		&[data-active] {
+			width: 22.5px;
+			height: 12px;
+			border: 1px solid var(--gold);
+			border-radius: 10px;
+			background-color: var(--gold);
+		}
 	}
 
 	.mantine-Carousel-controls button {

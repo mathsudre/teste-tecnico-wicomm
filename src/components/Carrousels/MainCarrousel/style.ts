@@ -13,6 +13,22 @@ const ContainerCarrousel = styled.div`
 		}
 	}
 
+	.mantine-Carousel-indicators button {
+		background-color: transparent;
+		width: 10.5px;
+		height: 10.5px;
+		border: 2px solid var(--white-1);
+		transition: 1s;
+
+		&[data-active] {
+			width: 22.5px;
+			height: 12px;
+			border: 2px solid var(--white-1);
+			border-radius: 10px;
+			background-color: var(--white-1);
+		}
+	}
+
 	.imageSection {
 		display: flex;
 		position: absolute;

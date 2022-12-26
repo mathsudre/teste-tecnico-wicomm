@@ -23,6 +23,7 @@ export const dataShowcaseCarousel = [
 		rating: 4,
 		price: 36.9,
 		isPromo: true,
+		promoDiscount: "-20%",
 		promoPrice: 29.9,
 	},
 	{
@@ -31,6 +32,7 @@ export const dataShowcaseCarousel = [
 		rating: 4,
 		price: 89.9,
 		isPromo: false,
+		promoDiscount: "0",
 		promoPrice: 0,
 	},
 	{
@@ -39,6 +41,7 @@ export const dataShowcaseCarousel = [
 		rating: 4,
 		price: 39.9,
 		isPromo: false,
+		promoDiscount: "0",
 		promoPrice: 0,
 	},
 	{
@@ -47,6 +50,7 @@ export const dataShowcaseCarousel = [
 		rating: 4,
 		price: 46.9,
 		isPromo: false,
+		promoDiscount: "0",
 		promoPrice: 0,
 	},
 	{
@@ -55,6 +59,7 @@ export const dataShowcaseCarousel = [
 		rating: 4,
 		price: 36.9,
 		isPromo: true,
+		promoDiscount: "-20%",
 		promoPrice: 29.9,
 	},
 	{
@@ -63,6 +68,7 @@ export const dataShowcaseCarousel = [
 		rating: 4,
 		price: 89.9,
 		isPromo: false,
+		promoDiscount: "0",
 		promoPrice: 0,
 	},
 	{
@@ -71,6 +77,7 @@ export const dataShowcaseCarousel = [
 		rating: 4,
 		price: 39.9,
 		isPromo: false,
+		promoDiscount: "0",
 		promoPrice: 0,
 	},
 	{
@@ -79,6 +86,7 @@ export const dataShowcaseCarousel = [
 		rating: 4,
 		price: 46.9,
 		isPromo: false,
+		promoDiscount: "0",
 		promoPrice: 0,
 	},
 ];
@@ -90,6 +98,7 @@ export const dataShowcaseCarouselCreme = [
 		rating: 4,
 		price: 60,
 		isPromo: false,
+		promoDiscount: "0",
 		promoPrice: 0,
 	},
 	{
@@ -98,6 +107,7 @@ export const dataShowcaseCarouselCreme = [
 		rating: 4,
 		price: 99.9,
 		isPromo: true,
+		promoDiscount: "-20%",
 		promoPrice: 79.9,
 	},
 	{
@@ -106,6 +116,7 @@ export const dataShowcaseCarouselCreme = [
 		rating: 4,
 		price: 99.9,
 		isPromo: true,
+		promoDiscount: "-20%",
 		promoPrice: 79.9,
 	},
 	{
@@ -114,6 +125,7 @@ export const dataShowcaseCarouselCreme = [
 		rating: 4,
 		price: 25,
 		isPromo: false,
+		promoDiscount: "0",
 		promoPrice: 0,
 	},
 	{
@@ -122,6 +134,7 @@ export const dataShowcaseCarouselCreme = [
 		rating: 4,
 		price: 60,
 		isPromo: false,
+		promoDiscount: "0",
 		promoPrice: 0,
 	},
 	{
@@ -130,6 +143,7 @@ export const dataShowcaseCarouselCreme = [
 		rating: 4,
 		price: 99.9,
 		isPromo: true,
+		promoDiscount: "-20%",
 		promoPrice: 79.9,
 	},
 	{
@@ -138,6 +152,7 @@ export const dataShowcaseCarouselCreme = [
 		rating: 4,
 		price: 99.9,
 		isPromo: true,
+		promoDiscount: "-20%",
 		promoPrice: 79.9,
 	},
 	{
@@ -146,6 +161,7 @@ export const dataShowcaseCarouselCreme = [
 		rating: 4,
 		price: 25,
 		isPromo: false,
+		promoDiscount: "0",
 		promoPrice: 0,
 	},
 ];
@@ -157,6 +173,7 @@ export const dataShowcaseCarouselHealth = [
 		rating: 4,
 		price: 69.9,
 		isPromo: false,
+		promoDiscount: "0",
 		promoPrice: 0,
 	},
 	{
@@ -165,6 +182,7 @@ export const dataShowcaseCarouselHealth = [
 		rating: 4,
 		price: 175,
 		isPromo: false,
+		promoDiscount: "0",
 		promoPrice: 0,
 	},
 	{
@@ -173,6 +191,7 @@ export const dataShowcaseCarouselHealth = [
 		rating: 4,
 		price: 140,
 		isPromo: false,
+		promoDiscount: "0",
 		promoPrice: 0,
 	},
 	{
@@ -181,6 +200,43 @@ export const dataShowcaseCarouselHealth = [
 		rating: 4,
 		price: 85,
 		isPromo: false,
+		promoDiscount: "0",
+		promoPrice: 0,
+	},
+	{
+		nameItem: "Café Verde 120 cápsulas",
+		srcImg: "/img/cafe-verde.svg",
+		rating: 4,
+		price: 69.9,
+		isPromo: false,
+		promoDiscount: "0",
+		promoPrice: 0,
+	},
+	{
+		nameItem: "Ácido Hialurônico com Colágeno HND 30 Sachês de 4g",
+		srcImg: "/img/colageno.svg",
+		rating: 4,
+		price: 175,
+		isPromo: false,
+		promoDiscount: "0",
+		promoPrice: 0,
+	},
+	{
+		nameItem: "Slim Max HND 120 Cápsulas",
+		srcImg: "/img/slim-max.svg",
+		rating: 4,
+		price: 140,
+		isPromo: false,
+		promoDiscount: "0",
+		promoPrice: 0,
+	},
+	{
+		nameItem: "Chá H+ Frutas Vermelhas 150g",
+		srcImg: "/img/cha-frutas-red.svg",
+		rating: 4,
+		price: 85,
+		isPromo: false,
+		promoDiscount: "0",
 		promoPrice: 0,
 	},
 ];
@@ -192,6 +248,7 @@ export const dataShowcaseCarouselSkin = [
 		rating: 4,
 		price: 45.0,
 		isPromo: false,
+		promoDiscount: "0",
 		promoPrice: 0,
 	},
 	{
@@ -200,6 +257,7 @@ export const dataShowcaseCarouselSkin = [
 		rating: 4,
 		price: 49,
 		isPromo: false,
+		promoDiscount: "0",
 		promoPrice: 0,
 	},
 	{
@@ -208,6 +266,7 @@ export const dataShowcaseCarouselSkin = [
 		rating: 4,
 		price: 27,
 		isPromo: false,
+		promoDiscount: "0",
 		promoPrice: 0,
 	},
 	{
@@ -216,6 +275,7 @@ export const dataShowcaseCarouselSkin = [
 		rating: 4,
 		price: 39,
 		isPromo: false,
+		promoDiscount: "0",
 		promoPrice: 0,
 	},
 	{
@@ -224,6 +284,7 @@ export const dataShowcaseCarouselSkin = [
 		rating: 4,
 		price: 45.0,
 		isPromo: false,
+		promoDiscount: "0",
 		promoPrice: 0,
 	},
 	{
@@ -232,6 +293,7 @@ export const dataShowcaseCarouselSkin = [
 		rating: 4,
 		price: 49,
 		isPromo: false,
+		promoDiscount: "0",
 		promoPrice: 0,
 	},
 	{
@@ -240,6 +302,7 @@ export const dataShowcaseCarouselSkin = [
 		rating: 4,
 		price: 27,
 		isPromo: false,
+		promoDiscount: "0",
 		promoPrice: 0,
 	},
 	{
@@ -248,6 +311,7 @@ export const dataShowcaseCarouselSkin = [
 		rating: 4,
 		price: 39,
 		isPromo: false,
+		promoDiscount: "0",
 		promoPrice: 0,
 	},
 ];
@@ -259,6 +323,7 @@ export const dataShowcaseCarouselNewProducts = [
 		rating: 4,
 		price: 150,
 		isPromo: false,
+		promoDiscount: "0",
 		promoPrice: 0,
 	},
 	{
@@ -267,6 +332,7 @@ export const dataShowcaseCarouselNewProducts = [
 		rating: 4,
 		price: 17.9,
 		isPromo: false,
+		promoDiscount: "0",
 		promoPrice: 0,
 	},
 	{
@@ -275,6 +341,7 @@ export const dataShowcaseCarouselNewProducts = [
 		rating: 4,
 		price: 33.4,
 		isPromo: false,
+		promoDiscount: "0",
 		promoPrice: 0,
 	},
 	{
@@ -283,6 +350,7 @@ export const dataShowcaseCarouselNewProducts = [
 		rating: 4,
 		price: 109.9,
 		isPromo: false,
+		promoDiscount: "0",
 		promoPrice: 0,
 	},
 	{
@@ -291,6 +359,7 @@ export const dataShowcaseCarouselNewProducts = [
 		rating: 4,
 		price: 150,
 		isPromo: false,
+		promoDiscount: "0",
 		promoPrice: 0,
 	},
 	{
@@ -299,6 +368,7 @@ export const dataShowcaseCarouselNewProducts = [
 		rating: 4,
 		price: 17.9,
 		isPromo: false,
+		promoDiscount: "0",
 		promoPrice: 0,
 	},
 	{
@@ -307,6 +377,7 @@ export const dataShowcaseCarouselNewProducts = [
 		rating: 4,
 		price: 33.4,
 		isPromo: false,
+		promoDiscount: "0",
 		promoPrice: 0,
 	},
 	{
@@ -315,6 +386,7 @@ export const dataShowcaseCarouselNewProducts = [
 		rating: 4,
 		price: 109.9,
 		isPromo: false,
+		promoDiscount: "0",
 		promoPrice: 0,
 	},
 ];
@@ -326,6 +398,7 @@ export const dataShowcaseCarouselFragancies = [
 		rating: 4,
 		price: 129,
 		isPromo: false,
+		promoDiscount: "0",
 		promoPrice: 0,
 	},
 	{
@@ -334,6 +407,7 @@ export const dataShowcaseCarouselFragancies = [
 		rating: 4,
 		price: 150,
 		isPromo: false,
+		promoDiscount: "0",
 		promoPrice: 0,
 	},
 	{
@@ -342,6 +416,7 @@ export const dataShowcaseCarouselFragancies = [
 		rating: 4,
 		price: 150,
 		isPromo: false,
+		promoDiscount: "0",
 		promoPrice: 0,
 	},
 	{
@@ -350,6 +425,7 @@ export const dataShowcaseCarouselFragancies = [
 		rating: 4,
 		price: 129,
 		isPromo: false,
+		promoDiscount: "0",
 		promoPrice: 0,
 	},
 	{
@@ -358,6 +434,7 @@ export const dataShowcaseCarouselFragancies = [
 		rating: 4,
 		price: 129,
 		isPromo: false,
+		promoDiscount: "0",
 		promoPrice: 0,
 	},
 	{
@@ -366,6 +443,7 @@ export const dataShowcaseCarouselFragancies = [
 		rating: 4,
 		price: 150,
 		isPromo: false,
+		promoDiscount: "0",
 		promoPrice: 0,
 	},
 	{
@@ -374,6 +452,7 @@ export const dataShowcaseCarouselFragancies = [
 		rating: 4,
 		price: 150,
 		isPromo: false,
+		promoDiscount: "0",
 		promoPrice: 0,
 	},
 	{
@@ -382,6 +461,7 @@ export const dataShowcaseCarouselFragancies = [
 		rating: 4,
 		price: 129,
 		isPromo: false,
+		promoDiscount: "0",
 		promoPrice: 0,
 	},
 ];
@@ -393,6 +473,7 @@ export const dataShowcaseCarouselNewFragancies = [
 		rating: 4,
 		price: 150,
 		isPromo: false,
+		promoDiscount: "0",
 		promoPrice: 0,
 	},
 	{
@@ -401,6 +482,7 @@ export const dataShowcaseCarouselNewFragancies = [
 		rating: 4,
 		price: 129,
 		isPromo: false,
+		promoDiscount: "0",
 		promoPrice: 0,
 	},
 	{
@@ -409,6 +491,7 @@ export const dataShowcaseCarouselNewFragancies = [
 		rating: 4,
 		price: 129,
 		isPromo: false,
+		promoDiscount: "0",
 		promoPrice: 0,
 	},
 	{
@@ -417,6 +500,7 @@ export const dataShowcaseCarouselNewFragancies = [
 		rating: 4,
 		price: 129,
 		isPromo: false,
+		promoDiscount: "0",
 		promoPrice: 0,
 	},
 	{
@@ -425,6 +509,7 @@ export const dataShowcaseCarouselNewFragancies = [
 		rating: 4,
 		price: 150,
 		isPromo: false,
+		promoDiscount: "0",
 		promoPrice: 0,
 	},
 	{
@@ -433,6 +518,7 @@ export const dataShowcaseCarouselNewFragancies = [
 		rating: 4,
 		price: 129,
 		isPromo: false,
+		promoDiscount: "0",
 		promoPrice: 0,
 	},
 	{
@@ -441,6 +527,7 @@ export const dataShowcaseCarouselNewFragancies = [
 		rating: 4,
 		price: 129,
 		isPromo: false,
+		promoDiscount: "0",
 		promoPrice: 0,
 	},
 	{
@@ -449,6 +536,7 @@ export const dataShowcaseCarouselNewFragancies = [
 		rating: 4,
 		price: 129,
 		isPromo: false,
+		promoDiscount: "0",
 		promoPrice: 0,
 	},
 ];
