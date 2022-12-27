@@ -1,4 +1,4 @@
-# Teste técnico-wicomm
+# Teste Técnico Wicomm
 
 Teste técnico desenvolvido com React-TypeScript como requisito para a vaga de
 Desenvolvedor Front-End.
