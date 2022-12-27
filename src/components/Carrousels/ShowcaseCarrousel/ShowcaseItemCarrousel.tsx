@@ -3,6 +3,7 @@ import { useState } from "react";
 import { AiFillHeart, AiOutlineHeart } from "react-icons/ai";
 
 import { IDataShowcaseItem } from "../../../interfaces/interfaces";
+import { formatter } from "../../../utils";
 import StyledButton from "../../GeneralComponents/Button";
 
 export default function ShowcaseItemCarrousel({ item }: IDataShowcaseItem) {
@@ -12,30 +13,7 @@ export default function ShowcaseItemCarrousel({ item }: IDataShowcaseItem) {
 		setFavorite((prev) => !prev);
 	}
 
-	function formatter(price: number, isPromo: boolean) {
-		const newFormato = new Intl.NumberFormat("pt-BR", {
-			style: "currency",
-			currency: "BRL",
-		});
-
-		const newPrice = newFormato.format(price).split(",");
-
-		return isPromo ? (
-			<>
-				<span>
-					{newPrice[0]},{newPrice[1]}
-				</span>
-				<p>
-					{newPrice[0]},
-					<span className="spanUpper">{newPrice[1]}</span>
-				</p>
-			</>
-		) : (
-			<p>
-				{newPrice[0]},<span className="spanUpper">{newPrice[1]}</span>
-			</p>
-		);
-	}
+	
 
 	return (
 		<li>

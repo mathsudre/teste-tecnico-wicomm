@@ -62,7 +62,7 @@ const ContainerDoubleCarrousel = styled.div`
 			margin: 12px;
 
 			display: flex;
-			gap: 20px;
+			gap: 30px;
 			flex-direction: column;
 			align-self: flex-start;
 
@@ -89,7 +89,7 @@ const ContainerDoubleCarrousel = styled.div`
 				line-height: 22px;
 			}
 
-			p {
+			p {				
 				font-family: var(--font-aktiv);
 				font-weight: 700;
 				font-size: 10px;

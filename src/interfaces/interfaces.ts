@@ -10,8 +10,16 @@ interface IDataShowcase {
 	rating: number;
 	price: number;
 	promoPrice: number;
-	promoDiscount:string
+	promoDiscount: string;
 	isPromo: boolean;
+}
+
+export interface IDataDoubleSlide {
+	nameItem: string;
+	srcImg: string;
+	price: number;
+	parcelPrice: number;
+	ratingStar: number;
 }
 
 export interface IDataItem {

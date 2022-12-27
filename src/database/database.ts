@@ -16,6 +16,23 @@ export const dataMainCarousel = [
 	},
 ];
 
+export const dataDoubleCarousel = [
+	{
+		nameItem: "Venyx L’Or 100ml",
+		srcImg: "/img/vent-perfum.jpg",		
+		price: 150,
+		parcelPrice: 75,
+		ratingStar: 5,
+	},
+	{
+		nameItem: "Multi- Vit Complex A-Z Mulheres 60 Cápsulas",
+		srcImg: "/img/mult-vit.jpg",		
+		price: 85,
+		parcelPrice: 42,
+		ratingStar: 5,
+	},
+];
+
 export const dataShowcaseCarousel = [
 	{
 		nameItem: "Esponja 3D Dazzle",
